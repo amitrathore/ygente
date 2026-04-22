@@ -1,0 +1,406 @@
+{
+  "metadata": {
+    "title": "Ygente - Growth Network for the Hispanic Community",
+    "description": "The first coselling platform for Latinos. Earn by influencing, even indirectly. Powered by AI-driven influence accounting."
+  },
+  "homepage": {
+    "heroTagline": "From our people, for our people",
+    "heroTitle": "Shop with the heart of your community",
+    "heroSubtitle": "Discover amazing products recommended by real people from your Hispanic community. No cold algorithms, just authentic trust.",
+    "ctaExplore": "Explore Products",
+    "ctaJoin": "Join the Community",
+    "trustTitle": "Shop with confidence",
+    "trustSubtitle": "Why thousands of Hispanic families trust Ygente",
+    "trust1Title": "Real Recommendations",
+    "trust1Description": "Every product is recommended by someone in your community who has actually used and loved it.",
+    "trust2Title": "Culture that Unites Us",
+    "trust2Description": "Products selected with our traditions, needs, and Latino tastes in mind.",
+    "trust3Title": "Fair Prices",
+    "trust3Description": "No unnecessary middlemen. Better prices that benefit both buyers and sellers.",
+    "trust4Title": "Supporting Our Own",
+    "trust4Description": "Every purchase supports entrepreneurs and ambassadors from our Hispanic community.",
+    "categoriesTitle": "Everything your family needs",
+    "categoriesSubtitle": "Products curated for the Latino lifestyle",
+    "howItWorksTitle": "It's this easy",
+    "howItWorksSubtitle": "Shopping has never been so personal",
+    "step1Title": "Find your ambassador",
+    "step1Description": "Connect with people from your community who share your tastes and interests.",
+    "step2Title": "Discover their favorites",
+    "step2Description": "Explore the products they actually use and recommend from the heart.",
+    "step3Title": "Shop with confidence",
+    "step3Description": "Know that every recommendation comes from a real person, not a paid ad.",
+    "step4Title": "Share your experience",
+    "step4Description": "Tell your family and friends about your favorite discoveries.",
+    "communityTitle": "A community that grows together",
+    "communitySubtitle": "Join thousands of Hispanic families who already shop differently",
+    "stat1Value": "10,000+",
+    "stat1Label": "Active families",
+    "stat2Value": "500+",
+    "stat2Label": "Trusted ambassadors",
+    "stat3Value": "50+",
+    "stat3Label": "Brands we love",
+    "stat4Value": "98%",
+    "stat4Label": "Satisfaction",
+    "testimonialsTitle": "What our people say",
+    "testimonial1Quote": "Finally I can buy products my abuelita would approve of, recommended by people like me.",
+    "testimonial1Author": "María González",
+    "testimonial1Location": "Miami, FL",
+    "testimonial2Quote": "It's like shopping with my favorite cousin, but from my phone.",
+    "testimonial2Author": "Carlos Rodríguez",
+    "testimonial2Location": "Houston, TX",
+    "testimonial3Quote": "I found beauty products that actually work for my Latina skin type.",
+    "testimonial3Author": "Ana Martínez",
+    "testimonial3Location": "Los Angeles, CA",
+    "ctaTitle": "Your community is waiting for you",
+    "ctaSubtitle": "Join thousands of families who have already discovered a better way to shop.",
+    "ctaButton": "Get Started",
+    "forSellers": "Want to be an ambassador?",
+    "forBrands": "Are you a brand?"
+  },
+  "nav": {
+    "home": "Home",
+    "embajadores": "Ambassadors",
+    "marcas": "Brands",
+    "comoFunciona": "How It Works",
+    "precios": "Pricing",
+    "nosotros": "About Us",
+    "circuloFundador": "Founding Circle",
+    "contacto": "Contact",
+    "joinWaitlist": "Join Waitlist"
+  },
+  "hero": {
+    "tagline": "Welcome to the Age of Coselling",
+    "title": "Earn by influencing, even indirectly",
+    "subtitle": "The first Growth Network for the Hispanic community. Coselling is #NoSelling - earn income by sharing what you love, tracked by AI-powered influence accounting.",
+    "ctaEmbajador": "I'm an Ambassador",
+    "ctaMarca": "I'm a Brand",
+    "joinWaitlist": "Join the Founding Circle"
+  },
+  "problem": {
+    "title": "Growth is broken for businesses and people",
+    "traditional": {
+      "title": "The Old Way",
+      "point1": "Big Tech platforms capture all the value",
+      "point2": "Only 'last click' gets rewarded",
+      "point3": "No visibility into the influence chain",
+      "point4": "5.5B internet users are unrewarded for driving purchases"
+    },
+    "ygente": {
+      "title": "With Ygente",
+      "point1": "Everyone in the influence chain earns",
+      "point2": "Full chain-of-influence attribution",
+      "point3": "AI-powered transparency and tracking",
+      "point4": "Community-powered growth for the AI economy"
+    }
+  },
+  "roles": {
+    "title": "There's a place for everyone",
+    "embajadores": {
+      "title": "Ambassadors",
+      "description": "Share products you love and earn commissions. No inventory, no risk.",
+      "cta": "Learn more"
+    },
+    "creadores": {
+      "title": "Creators",
+      "description": "Monetize your audience with products that align with your content.",
+      "cta": "Learn more"
+    },
+    "marcas": {
+      "title": "Brands",
+      "description": "Reach the Hispanic community through authentic voices.",
+      "cta": "Learn more"
+    },
+    "anfitriones": {
+      "title": "Hosts",
+      "description": "Organize social selling events and earn with your hospitality.",
+      "cta": "Learn more"
+    }
+  },
+  "verticals": {
+    "title": "6 Verticals, One Ecosystem",
+    "subtitle": "Categories designed for our community's needs",
+    "belleza": {
+      "title": "Beauty & Personal Care",
+      "description": "Cosmetics, skincare, and beauty products"
+    },
+    "hogar": {
+      "title": "Home & Kitchen",
+      "description": "Everything for your home, from decor to appliances"
+    },
+    "salud": {
+      "title": "Health & Wellness",
+      "description": "Supplements, fitness, and wellness products"
+    },
+    "moda": {
+      "title": "Fashion & Accessories",
+      "description": "Clothing, jewelry, and accessories for the whole family"
+    },
+    "tecnologia": {
+      "title": "Technology & Gadgets",
+      "description": "The latest gadgets and tech accessories"
+    },
+    "servicios": {
+      "title": "Services & Experiences",
+      "description": "From insurance to travel and entertainment"
+    }
+  },
+  "features": {
+    "title": "Tools that empower you",
+    "confianza": {
+      "title": "Trust Score",
+      "description": "A unique score that measures your reputation as an ambassador based on sales, reviews, and engagement."
+    },
+    "curador": {
+      "title": "AI Curator",
+      "description": "Our AI suggests perfect products for your audience based on your history and community."
+    },
+    "circulos": {
+      "title": "Trust Circles",
+      "description": "Create groups of recurring buyers who trust your recommendations."
+    },
+    "calendario": {
+      "title": "Drops Calendar",
+      "description": "Schedule your launches and automatically notify your community."
+    }
+  },
+  "flywheel": {
+    "title": "The 5Cs Flywheel",
+    "subtitle": "Community-powered growth for the AI economy",
+    "campaigns": {
+      "title": "Campaigns",
+      "description": "AI-powered outreach that drives authentic engagement"
+    },
+    "content": {
+      "title": "Content",
+      "description": "Create and share stories that resonate with your community"
+    },
+    "community": {
+      "title": "Community",
+      "description": "Build networks of human and AI agents working together"
+    },
+    "commerce": {
+      "title": "Commerce",
+      "description": "Every touchpoint becomes a virtual point of sale"
+    },
+    "cosellers": {
+      "title": "Cosellers",
+      "description": "Earn income by influencing outcomes, even indirectly"
+    }
+  },
+  "foundingCircle": {
+    "title": "Founding Circle",
+    "subtitle": "Be part of the first to build the future of coselling",
+    "embajadores": {
+      "title": "50 Founding Ambassadors",
+      "benefit1": "Lifetime access to Pro features",
+      "benefit2": "Permanent preferential commissions",
+      "benefit3": "Exclusive founder badge",
+      "benefit4": "Direct access to the Ygente team"
+    },
+    "marcas": {
+      "title": "25 Founding Brands",
+      "benefit1": "6 months of free platform",
+      "benefit2": "Personalized onboarding",
+      "benefit3": "Featured position in marketplace",
+      "benefit4": "Direct input on product development"
+    },
+    "spotsLeft": "spots available",
+    "applyNow": "Apply now"
+  },
+  "waitlist": {
+    "title": "Join the coselling revolution",
+    "subtitle": "Be among the first to access when we launch",
+    "emailPlaceholder": "your@email.com",
+    "selectRole": "Select your role",
+    "roleEmbajador": "I want to be an Ambassador",
+    "roleMarca": "I represent a Brand",
+    "roleAmbos": "Both",
+    "submit": "Join the waitlist",
+    "success": "Thank you! We'll notify you when we launch.",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "tagline": "From our people, for our people",
+    "platform": "Platform",
+    "company": "Company",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "social": "Follow us",
+    "newsletter": "Newsletter",
+    "newsletterPlaceholder": "your@email.com",
+    "subscribe": "Subscribe",
+    "copyright": "© 2026 Ygente. All rights reserved."
+  },
+  "embajadoresPage": {
+    "title": "Ambassadors",
+    "heroTitle": "Turn your passion into earnings",
+    "heroSubtitle": "Share products you love with people who trust you. No inventory, no risk, just opportunities.",
+    "howItWorks": "How it works",
+    "step1Title": "Create your profile",
+    "step1Description": "Sign up and tell us about your interests and community",
+    "step2Title": "Discover products",
+    "step2Description": "Explore brands and products that align with your style",
+    "step3Title": "Share with your network",
+    "step3Description": "Use your unique link to recommend products",
+    "step4Title": "Earn commissions",
+    "step4Description": "Receive money for every sale you generate",
+    "benefits": "Benefits",
+    "benefit1": "Commissions up to 30%",
+    "benefit2": "No minimum followers",
+    "benefit3": "Weekly payouts",
+    "benefit4": "Analytics dashboard",
+    "benefit5": "Support in Spanish",
+    "benefit6": "Exclusive community",
+    "cta": "Join as Ambassador"
+  },
+  "marcasPage": {
+    "title": "Brands",
+    "heroTitle": "Reach the Hispanic community",
+    "heroSubtitle": "Connect with millions of Latino consumers through authentic ambassadors who truly love your product.",
+    "whyYgente": "Why Ygente?",
+    "reason1Title": "Authentic Reach",
+    "reason1Description": "Our ambassadors have real connections with their communities",
+    "reason2Title": "Measurable ROI",
+    "reason2Description": "Track every sale from recommendation to conversion",
+    "reason3Title": "Engaged Community",
+    "reason3Description": "Access the purchasing power of the Hispanic community",
+    "reason4Title": "Easy Integration",
+    "reason4Description": "Connect your catalog and start in minutes",
+    "dashboard": "Dashboard Preview",
+    "metrics": {
+      "sales": "Monthly Sales",
+      "embajadores": "Active Ambassadors",
+      "conversion": "Conversion Rate",
+      "revenue": "Revenue"
+    },
+    "cta": "Request Demo"
+  },
+  "comoFuncionaPage": {
+    "title": "How It Works",
+    "heroTitle": "Coselling simplified",
+    "heroSubtitle": "A new commerce model based on trust and genuine relationships",
+    "forEmbajadores": "For Ambassadors",
+    "forMarcas": "For Brands",
+    "deepDive": "The 5Cs in depth",
+    "campaignsDetail": "AI-powered campaigns that reach your community authentically across all channels",
+    "contentDetail": "Create compelling stories and media that showcase products you genuinely love",
+    "communityDetail": "Build and nurture networks of engaged followers who trust your recommendations",
+    "commerceDetail": "Transform every touchpoint into a virtual point of sale with seamless checkout",
+    "cosellersDetail": "Earn commissions on every sale you influence, even if you're not the last click"
+  },
+  "preciosPage": {
+    "title": "Pricing",
+    "heroTitle": "Plans for every stage",
+    "heroSubtitle": "Start free and scale as you grow",
+    "embajadorPlans": "For Ambassadors",
+    "marcaPlans": "For Brands",
+    "free": {
+      "name": "Free",
+      "price": "$0",
+      "period": "forever",
+      "feature1": "Up to 10 products",
+      "feature2": "Base commissions",
+      "feature3": "Basic dashboard",
+      "feature4": "Email support",
+      "cta": "Start free"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "$79",
+      "period": "/month",
+      "feature1": "Unlimited products",
+      "feature2": "Premium commissions (+10%)",
+      "feature3": "Advanced analytics",
+      "feature4": "AI Curator",
+      "feature5": "Trust circles",
+      "feature6": "Priority support",
+      "cta": "Coming soon"
+    },
+    "starter": {
+      "name": "Starter",
+      "price": "$199",
+      "period": "one-time",
+      "feature1": "Marketplace listing",
+      "feature2": "Up to 5 ambassadors",
+      "feature3": "Basic dashboard",
+      "feature4": "Manual integration",
+      "cta": "Get started"
+    },
+    "growth": {
+      "name": "Growth",
+      "price": "$499",
+      "period": "/month",
+      "feature1": "Unlimited ambassadors",
+      "feature2": "API integration",
+      "feature3": "Advanced analytics",
+      "feature4": "AI matching",
+      "feature5": "Dedicated manager",
+      "feature6": "Custom campaigns",
+      "cta": "Contact sales"
+    },
+    "popular": "Most popular"
+  },
+  "nosotrosPage": {
+    "title": "About Us",
+    "heroTitle": "From our people, for our people",
+    "heroSubtitle": "Our mission is to empower the Hispanic community through authentic social commerce",
+    "manifesto": "Our Manifesto",
+    "manifestoText1": "We believe every Hispanic has the power to influence their community's purchasing decisions. You don't need millions of followers - you need trust.",
+    "manifestoText2": "Ygente was born from a simple observation: the best product recommendations come from people we know and trust. Your aunt who always knows where to find the best deals. Your cousin who's the tech expert. Your neighbor with the best taste in beauty.",
+    "manifestoText3": "We're building the platform that makes it possible for these authentic voices to monetize their natural influence, while brands access the Hispanic market genuinely.",
+    "values": "Our Values",
+    "value1Title": "Authenticity",
+    "value1Description": "We prioritize real relationships over vanity metrics",
+    "value2Title": "Community",
+    "value2Description": "We build together, for everyone",
+    "value3Title": "Trust",
+    "value3Description": "The foundation of everything we do",
+    "value4Title": "Opportunity",
+    "value4Description": "We democratize access to extra income"
+  },
+  "circuloFundadorPage": {
+    "title": "Founding Circle",
+    "heroTitle": "Build the future with us",
+    "heroSubtitle": "Join an exclusive group of pioneers who will define coselling in the Hispanic community",
+    "whatIs": "What is the Founding Circle?",
+    "whatIsDescription": "The Founding Circle is our exclusive program for the first 50 ambassadors and 25 brands that join Ygente before the official launch. As a founder, you'll have lifetime benefits and be part of the decisions that shape the platform.",
+    "embajadorBenefits": "Benefits for Founding Ambassadors",
+    "marcaBenefits": "Benefits for Founding Brands",
+    "application": "Application",
+    "applicationDescription": "Complete the form below and our team will review your application within 48 hours.",
+    "formName": "Full name",
+    "formEmail": "Email",
+    "formRole": "I'm interested as",
+    "formRoleEmbajador": "Ambassador",
+    "formRoleMarca": "Brand",
+    "formWhy": "Why do you want to be part of the Founding Circle?",
+    "formSubmit": "Submit application",
+    "formSuccess": "Application received! We'll contact you soon.",
+    "progressTitle": "Founding Circle Progress",
+    "embajadoresProgress": "Ambassadors",
+    "marcasProgress": "Brands"
+  },
+  "contactoPage": {
+    "title": "Contact",
+    "heroTitle": "Let's talk",
+    "heroSubtitle": "We're here to answer your questions",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formSubmit": "Send message",
+    "formSuccess": "Message sent! We'll respond soon.",
+    "info": "Contact information",
+    "email": "Email",
+    "social": "Social media",
+    "location": "Location",
+    "locationValue": "Miami, Florida"
+  },
+  "legalPage": {
+    "privacyTitle": "Privacy Policy",
+    "termsTitle": "Terms of Service",
+    "lastUpdated": "Last updated",
+    "placeholder": "This section will be completed soon with full legal documentation. Please contact legal@ygente.com for any inquiries."
+  }
+}

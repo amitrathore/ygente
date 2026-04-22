@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-teal: #00CED1;
+  --brand-green: #38A169;
+  --brand-gold: #D69E2E;
+  --brand-orange: #ED8936;
+  --brand-magenta: #D53F8C;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased text-gray-900;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-brand-teal via-brand-green to-brand-gold bg-clip-text text-transparent;
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-r from-brand-teal via-brand-green to-brand-gold;
+  }
+
+  .gradient-bg-warm {
+    @apply bg-gradient-to-r from-brand-orange via-brand-magenta to-brand-teal;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24 px-4 md:px-8;
+  }
+
+  .container-narrow {
+    @apply max-w-4xl mx-auto;
+  }
+
+  .container-wide {
+    @apply max-w-7xl mx-auto;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
