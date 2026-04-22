@@ -8,6 +8,7 @@ import { Container, Button } from '@/components/ui';
 
 export function HeroB2C() {
   const t = useTranslations('homepage');
+  const tVerticals = useTranslations('verticals');
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-brand-teal/5 via-white to-brand-gold/10 py-20 md:py-32">
@@ -76,21 +77,21 @@ export function HeroB2C() {
         >
           <div className="flex justify-center gap-4 md:gap-8 flex-wrap">
             {[
-              { color: 'bg-brand-teal/20', name: 'Belleza', icon: '💄' },
-              { color: 'bg-brand-green/20', name: 'Hogar', icon: '🏠' },
-              { color: 'bg-brand-gold/20', name: 'Moda', icon: '👗' },
-              { color: 'bg-brand-orange/20', name: 'Salud', icon: '💪' },
-              { color: 'bg-brand-magenta/20', name: 'Tech', icon: '📱' },
+              { color: 'bg-brand-teal/20', key: 'belleza', icon: '💄' },
+              { color: 'bg-brand-green/20', key: 'hogar', icon: '🏠' },
+              { color: 'bg-brand-gold/20', key: 'moda', icon: '👗' },
+              { color: 'bg-brand-orange/20', key: 'salud', icon: '💪' },
+              { color: 'bg-brand-magenta/20', key: 'tecnologia', icon: '📱' },
             ].map((category, index) => (
               <motion.div
-                key={category.name}
+                key={category.key}
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.3, delay: 0.6 + index * 0.1 }}
                 className={`${category.color} rounded-2xl p-6 text-center shadow-lg hover:shadow-xl transition-shadow cursor-pointer`}
               >
                 <span className="text-3xl mb-2 block">{category.icon}</span>
-                <span className="font-medium text-gray-800">{category.name}</span>
+                <span className="font-medium text-gray-800">{tVerticals(`${category.key}.title`)}</span>
               </motion.div>
             ))}
           </div>
