@@ -2,10 +2,9 @@ import { getTranslations } from 'next-intl/server';
 import {
   HeroB2C,
   TrustSection,
+  MagazineSection,
   VerticalShowcase,
-  HowItWorksB2C,
   CommunityStats,
-  Testimonials,
   CtaSection,
 } from '@/components/sections';
 
@@ -30,10 +29,9 @@ export default function HomePage() {
     <>
       <HeroB2C />
       <TrustSection />
+      <MagazineSection />
       <VerticalShowcase />
-      <HowItWorksB2C />
       <CommunityStats />
-      <Testimonials />
       <CtaSection />
     </>
   );

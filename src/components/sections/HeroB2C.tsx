@@ -25,8 +25,12 @@ export function HeroB2C() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
+            className="flex flex-col items-center gap-3 mb-6"
           >
-            <span className="inline-block px-4 py-2 rounded-full bg-brand-gold/10 text-brand-gold font-medium text-sm mb-6">
+            <span className="inline-block px-4 py-2 rounded-full bg-brand-magenta/10 text-brand-magenta font-semibold text-sm">
+              {t('preLaunchBadge')}
+            </span>
+            <span className="inline-block px-4 py-2 rounded-full bg-brand-gold/10 text-brand-gold font-medium text-sm">
               {t('heroTagline')}
             </span>
           </motion.div>

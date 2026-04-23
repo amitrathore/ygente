@@ -13,3 +13,4 @@ export { HowItWorksB2C } from './HowItWorksB2C';
 export { CommunityStats } from './CommunityStats';
 export { Testimonials } from './Testimonials';
 export { CtaSection } from './CtaSection';
+export { MagazineSection } from './MagazineSection';

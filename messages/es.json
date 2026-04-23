@@ -4,21 +4,22 @@
     "description": "La primera plataforma de coselling para latinos. Gana influyendo, incluso indirectamente. Impulsado por contabilidad de influencia con IA."
   },
   "homepage": {
-    "heroTagline": "De nuestra gente, para nuestra gente",
-    "heroTitle": "Compra con el corazón de tu comunidad",
-    "heroSubtitle": "Descubre productos increíbles recomendados por personas reales de tu comunidad hispana. Sin algoritmos fríos, solo confianza auténtica.",
-    "ctaExplore": "Explorar Productos",
-    "ctaJoin": "Únete a la Comunidad",
-    "trustTitle": "Compras con confianza",
-    "trustSubtitle": "Por qué miles de familias hispanas confían en Ygente",
-    "trust1Title": "Recomendaciones Reales",
-    "trust1Description": "Cada producto es recomendado por alguien de tu comunidad que realmente lo ha usado y amado.",
-    "trust2Title": "Cultura que nos Une",
-    "trust2Description": "Productos seleccionados pensando en nuestras tradiciones, necesidades y gustos latinos.",
-    "trust3Title": "Precios Justos",
-    "trust3Description": "Sin intermediarios innecesarios. Mejores precios que benefician a compradores y vendedores.",
-    "trust4Title": "Apoyo a los Nuestros",
-    "trust4Description": "Cada compra apoya a emprendedores y embajadores de nuestra comunidad hispana.",
+    "preLaunchBadge": "Proximamente",
+    "heroTagline": "El momento es ahora",
+    "heroTitle": "Únete al movimiento que transformará el comercio hispano",
+    "heroSubtitle": "Estamos construyendo la primera red de crecimiento por y para nuestra comunidad. Los fundadores tendrán acceso exclusivo y beneficios de por vida.",
+    "ctaExplore": "Unirme al Movimiento",
+    "ctaJoin": "Conocer la Visión",
+    "trustTitle": "Por qué unirte ahora",
+    "trustSubtitle": "Los primeros en unirse tendrán ventajas únicas",
+    "trust1Title": "Acceso Fundador",
+    "trust1Description": "Sé parte del grupo exclusivo que dará forma al futuro del comercio hispano.",
+    "trust2Title": "Beneficios de Por Vida",
+    "trust2Description": "Comisiones preferenciales y acceso a funciones Pro permanentemente.",
+    "trust3Title": "Voz en el Producto",
+    "trust3Description": "Tu opinión importa. Los fundadores influyen directamente en el desarrollo.",
+    "trust4Title": "Badge Exclusivo",
+    "trust4Description": "Reconocimiento permanente como pionero de la comunidad Ygente.",
     "categoriesTitle": "Todo lo que tu familia necesita",
     "categoriesSubtitle": "Productos curados para el estilo de vida latino",
     "howItWorksTitle": "Así de fácil funciona",
@@ -31,16 +32,16 @@
     "step3Description": "Sabe que cada recomendación viene de alguien real, no de un anuncio pagado.",
     "step4Title": "Comparte tu experiencia",
     "step4Description": "Cuéntale a tu familia y amigos sobre tus descubrimientos favoritos.",
-    "communityTitle": "Una comunidad que crece junta",
-    "communitySubtitle": "Únete a miles de familias hispanas que ya compran diferente",
-    "stat1Value": "10,000+",
-    "stat1Label": "Familias activas",
-    "stat2Value": "500+",
-    "stat2Label": "Embajadores de confianza",
-    "stat3Value": "50+",
-    "stat3Label": "Marcas que amamos",
-    "stat4Value": "98%",
-    "stat4Label": "Satisfacción",
+    "communityTitle": "Nuestra Meta Colectiva",
+    "communitySubtitle": "Juntos construiremos la comunidad de comercio hispano más grande",
+    "stat1Value": "50",
+    "stat1Label": "Embajadores Fundadores",
+    "stat2Value": "25",
+    "stat2Label": "Marcas Fundadoras",
+    "stat3Value": "100",
+    "stat3Label": "Creadores de Contenido",
+    "stat4Value": "1,000",
+    "stat4Label": "Miembros de la Comunidad",
     "testimonialsTitle": "Lo que dice nuestra gente",
     "testimonial1Quote": "Por fin puedo comprar productos que mi abuelita aprobaría, recomendados por gente como yo.",
     "testimonial1Author": "María González",
@@ -51,11 +52,51 @@
     "testimonial3Quote": "Encontré productos de belleza que realmente funcionan para mi tipo de piel latina.",
     "testimonial3Author": "Ana Martínez",
     "testimonial3Location": "Los Angeles, CA",
-    "ctaTitle": "Tu comunidad te está esperando",
-    "ctaSubtitle": "Únete a miles de familias que ya descubrieron una mejor manera de comprar.",
-    "ctaButton": "Comenzar Ahora",
+    "ctaTitle": "El movimiento comienza contigo",
+    "ctaSubtitle": "Sé parte de los primeros en transformar cómo nuestra comunidad compra y vende.",
+    "ctaButton": "Unirme al Círculo Fundador",
     "forSellers": "¿Quieres ser embajador?",
     "forBrands": "¿Eres una marca?"
+  },
+  "magazine": {
+    "badge": "Próximamente",
+    "title": "La Revista de Nuestra Gente",
+    "subtitle": "Historias, cultura y voces de la comunidad hispana",
+    "pillars": {
+      "productos": {
+        "title": "Productos",
+        "description": "Descubrimientos y recomendaciones de nuestra comunidad"
+      },
+      "destacados": {
+        "title": "Destacados",
+        "description": "Los embajadores y marcas que están marcando la diferencia"
+      },
+      "humanidades": {
+        "title": "Humanidades",
+        "description": "Reflexiones sobre nuestra identidad y experiencia"
+      },
+      "arte": {
+        "title": "Arte",
+        "description": "Creatividad latina en todas sus formas"
+      },
+      "cultura": {
+        "title": "Cultura",
+        "description": "Tradiciones, tendencias y lo que nos une"
+      },
+      "opiniones": {
+        "title": "Opiniones",
+        "description": "Perspectivas diversas de nuestra comunidad"
+      },
+      "resenas": {
+        "title": "Reseñas",
+        "description": "Evaluaciones honestas de productos y experiencias"
+      }
+    },
+    "callForCreators": {
+      "title": "¿Tienes algo que decir?",
+      "description": "Buscamos voces auténticas para nuestra revista. Si tienes historias, opiniones o conocimiento para compartir con la comunidad hispana, queremos escucharte.",
+      "cta": "Quiero ser Creador"
+    }
   },
   "nav": {
     "home": "Inicio",

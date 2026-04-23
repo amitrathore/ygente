@@ -4,21 +4,22 @@
     "description": "The first coselling platform for Latinos. Earn by influencing, even indirectly. Powered by AI-driven influence accounting."
   },
   "homepage": {
-    "heroTagline": "From our people, for our people",
-    "heroTitle": "Shop with the heart of your community",
-    "heroSubtitle": "Discover amazing products recommended by real people from your Hispanic community. No cold algorithms, just authentic trust.",
-    "ctaExplore": "Explore Products",
-    "ctaJoin": "Join the Community",
-    "trustTitle": "Shop with confidence",
-    "trustSubtitle": "Why thousands of Hispanic families trust Ygente",
-    "trust1Title": "Real Recommendations",
-    "trust1Description": "Every product is recommended by someone in your community who has actually used and loved it.",
-    "trust2Title": "Culture that Unites Us",
-    "trust2Description": "Products selected with our traditions, needs, and Latino tastes in mind.",
-    "trust3Title": "Fair Prices",
-    "trust3Description": "No unnecessary middlemen. Better prices that benefit both buyers and sellers.",
-    "trust4Title": "Supporting Our Own",
-    "trust4Description": "Every purchase supports entrepreneurs and ambassadors from our Hispanic community.",
+    "preLaunchBadge": "Coming Soon",
+    "heroTagline": "The moment is now",
+    "heroTitle": "Join the movement that will transform Hispanic commerce",
+    "heroSubtitle": "We're building the first growth network by and for our community. Founders will have exclusive access and lifetime benefits.",
+    "ctaExplore": "Join the Movement",
+    "ctaJoin": "Learn the Vision",
+    "trustTitle": "Why join now",
+    "trustSubtitle": "Early members will have unique advantages",
+    "trust1Title": "Founder Access",
+    "trust1Description": "Be part of the exclusive group shaping the future of Hispanic commerce.",
+    "trust2Title": "Lifetime Benefits",
+    "trust2Description": "Preferential commissions and permanent access to Pro features.",
+    "trust3Title": "Voice in the Product",
+    "trust3Description": "Your opinion matters. Founders directly influence development.",
+    "trust4Title": "Exclusive Badge",
+    "trust4Description": "Permanent recognition as a pioneer of the Ygente community.",
     "categoriesTitle": "Everything your family needs",
     "categoriesSubtitle": "Products curated for the Latino lifestyle",
     "howItWorksTitle": "It's this easy",
@@ -31,16 +32,16 @@
     "step3Description": "Know that every recommendation comes from a real person, not a paid ad.",
     "step4Title": "Share your experience",
     "step4Description": "Tell your family and friends about your favorite discoveries.",
-    "communityTitle": "A community that grows together",
-    "communitySubtitle": "Join thousands of Hispanic families who already shop differently",
-    "stat1Value": "10,000+",
-    "stat1Label": "Active families",
-    "stat2Value": "500+",
-    "stat2Label": "Trusted ambassadors",
-    "stat3Value": "50+",
-    "stat3Label": "Brands we love",
-    "stat4Value": "98%",
-    "stat4Label": "Satisfaction",
+    "communityTitle": "Our Collective Goal",
+    "communitySubtitle": "Together we'll build the largest Hispanic commerce community",
+    "stat1Value": "50",
+    "stat1Label": "Founding Ambassadors",
+    "stat2Value": "25",
+    "stat2Label": "Founding Brands",
+    "stat3Value": "100",
+    "stat3Label": "Content Creators",
+    "stat4Value": "1,000",
+    "stat4Label": "Community Members",
     "testimonialsTitle": "What our people say",
     "testimonial1Quote": "Finally I can buy products my abuelita would approve of, recommended by people like me.",
     "testimonial1Author": "María González",
@@ -51,11 +52,51 @@
     "testimonial3Quote": "I found beauty products that actually work for my Latina skin type.",
     "testimonial3Author": "Ana Martínez",
     "testimonial3Location": "Los Angeles, CA",
-    "ctaTitle": "Your community is waiting for you",
-    "ctaSubtitle": "Join thousands of families who have already discovered a better way to shop.",
-    "ctaButton": "Get Started",
+    "ctaTitle": "The movement starts with you",
+    "ctaSubtitle": "Be among the first to transform how our community buys and sells.",
+    "ctaButton": "Join the Founding Circle",
     "forSellers": "Want to be an ambassador?",
     "forBrands": "Are you a brand?"
+  },
+  "magazine": {
+    "badge": "Coming Soon",
+    "title": "The Magazine of Our People",
+    "subtitle": "Stories, culture, and voices from the Hispanic community",
+    "pillars": {
+      "productos": {
+        "title": "Products",
+        "description": "Discoveries and recommendations from our community"
+      },
+      "destacados": {
+        "title": "Featured",
+        "description": "Ambassadors and brands making a difference"
+      },
+      "humanidades": {
+        "title": "Humanities",
+        "description": "Reflections on our identity and experience"
+      },
+      "arte": {
+        "title": "Art",
+        "description": "Latino creativity in all its forms"
+      },
+      "cultura": {
+        "title": "Culture",
+        "description": "Traditions, trends, and what unites us"
+      },
+      "opiniones": {
+        "title": "Opinions",
+        "description": "Diverse perspectives from our community"
+      },
+      "resenas": {
+        "title": "Reviews",
+        "description": "Honest evaluations of products and experiences"
+      }
+    },
+    "callForCreators": {
+      "title": "Have something to say?",
+      "description": "We're looking for authentic voices for our magazine. If you have stories, opinions, or knowledge to share with the Hispanic community, we want to hear from you.",
+      "cta": "I Want to be a Creator"
+    }
   },
   "nav": {
     "home": "Home",
