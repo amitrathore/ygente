@@ -348,7 +348,8 @@
     },
     "pro": {
       "name": "Pro",
-      "price": "$79",
+      "price": "$99",
+      "originalPrice": "$79",
       "period": "/month",
       "feature1": "Unlimited products",
       "feature2": "Premium commissions (+10%)",
@@ -358,14 +359,26 @@
       "feature6": "Priority support",
       "cta": "Coming soon"
     },
+    "avatar": {
+      "name": "AI Avatar",
+      "price": "$299",
+      "period": "/month",
+      "feature1": "Everything in Pro",
+      "feature2": "Personalized AI Avatar",
+      "feature3": "AI Copilot for management",
+      "feature4": "Automated online presence",
+      "feature5": "AI-generated content",
+      "feature6": "VIP 24/7 support",
+      "cta": "Coming soon"
+    },
     "starter": {
       "name": "Starter",
       "price": "$199",
-      "period": "one-time",
+      "period": "/month",
       "feature1": "Marketplace listing",
-      "feature2": "Up to 5 ambassadors",
+      "feature2": "Up to 10 ambassadors",
       "feature3": "Basic dashboard",
-      "feature4": "Manual integration",
+      "feature4": "Email support",
       "cta": "Get started"
     },
     "growth": {
@@ -373,11 +386,23 @@
       "price": "$499",
       "period": "/month",
       "feature1": "Unlimited ambassadors",
-      "feature2": "API integration",
-      "feature3": "Advanced analytics",
-      "feature4": "AI matching",
-      "feature5": "Dedicated manager",
-      "feature6": "Custom campaigns",
+      "feature2": "Premium featured listing",
+      "feature3": "Access to training",
+      "feature4": "Networking events",
+      "feature5": "Advanced analytics",
+      "feature6": "Dedicated manager",
+      "cta": "Contact sales"
+    },
+    "orgmind": {
+      "name": "Orgmind AI",
+      "price": "$999",
+      "period": "/month",
+      "feature1": "Everything in Growth",
+      "feature2": "Orgmind AI integrated",
+      "feature3": "Operations optimization",
+      "feature4": "AI growth strategy",
+      "feature5": "Intelligent automation",
+      "feature6": "Strategic consulting",
       "cta": "Contact sales"
     },
     "popular": "Most popular"

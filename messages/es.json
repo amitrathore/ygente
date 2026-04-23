@@ -348,7 +348,8 @@
     },
     "pro": {
       "name": "Pro",
-      "price": "$79",
+      "price": "$99",
+      "originalPrice": "$79",
       "period": "/mes",
       "feature1": "Productos ilimitados",
       "feature2": "Comisiones premium (+10%)",
@@ -358,14 +359,26 @@
       "feature6": "Soporte prioritario",
       "cta": "Próximamente"
     },
+    "avatar": {
+      "name": "Avatar IA",
+      "price": "$299",
+      "period": "/mes",
+      "feature1": "Todo en Pro",
+      "feature2": "Avatar IA personalizado",
+      "feature3": "Copilot IA para gestión",
+      "feature4": "Presencia online automatizada",
+      "feature5": "Contenido generado por IA",
+      "feature6": "Soporte VIP 24/7",
+      "cta": "Próximamente"
+    },
     "starter": {
       "name": "Starter",
       "price": "$199",
-      "period": "único",
+      "period": "/mes",
       "feature1": "Listado en marketplace",
-      "feature2": "Hasta 5 embajadores",
+      "feature2": "Hasta 10 embajadores",
       "feature3": "Dashboard básico",
-      "feature4": "Integración manual",
+      "feature4": "Soporte por email",
       "cta": "Empezar"
     },
     "growth": {
@@ -373,11 +386,23 @@
       "price": "$499",
       "period": "/mes",
       "feature1": "Embajadores ilimitados",
-      "feature2": "API de integración",
-      "feature3": "Analytics avanzados",
-      "feature4": "Matching con IA",
-      "feature5": "Manager dedicado",
-      "feature6": "Campañas personalizadas",
+      "feature2": "Listado premium destacado",
+      "feature3": "Acceso a capacitaciones",
+      "feature4": "Eventos de networking",
+      "feature5": "Analytics avanzados",
+      "feature6": "Manager dedicado",
+      "cta": "Contactar ventas"
+    },
+    "orgmind": {
+      "name": "Orgmind IA",
+      "price": "$999",
+      "period": "/mes",
+      "feature1": "Todo en Growth",
+      "feature2": "Orgmind IA integrado",
+      "feature3": "Optimización de operaciones",
+      "feature4": "Estrategia de crecimiento IA",
+      "feature5": "Automatización inteligente",
+      "feature6": "Consultoría estratégica",
       "cta": "Contactar ventas"
     },
     "popular": "Más popular"

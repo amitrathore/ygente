@@ -9,6 +9,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: `${t('termsTitle')} | Ygente`,
     description: 'Terms of Service for Ygente platform',
+    openGraph: {
+      title: `${t('termsTitle')} | Ygente`,
+      description: 'Terms of Service for Ygente platform',
+      images: [{ url: '/images/logo.jpeg', width: 1200, height: 630, alt: 'Ygente' }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      images: ['/images/logo.jpeg'],
+    },
   };
 }
 
