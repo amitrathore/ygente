@@ -53,11 +53,18 @@ export function TallyEmbed({
   const formId = useTallyFormId(form);
 
   useEffect(() => {
-    window.Tally?.loadEmbeds();
+    // dynamicHeight resizing only kicks in once loadEmbeds() has run against a
+    // mounted iframe. Retry a few times so it wins the race with the embed
+    // script finishing loading (otherwise the iframe stays at its initial
+    // height and the form scrolls inside itself — worst on mobile).
+    const run = () => window.Tally?.loadEmbeds();
+    run();
+    const timers = [200, 800, 2000].map((ms) => setTimeout(run, ms));
+    return () => timers.forEach(clearTimeout);
   }, [formId]);
 
   return (
-    <div className={cn('w-full overflow-hidden', className)}>
+    <div className={cn('w-full', className)}>
       <Script
         src="https://tally.so/widgets/embed.js"
         strategy="afterInteractive"
@@ -66,13 +73,13 @@ export function TallyEmbed({
       <iframe
         key={formId}
         data-tally-src={`https://tally.so/embed/${formId}?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1`}
-        loading="lazy"
         width="100%"
         height={minHeight}
         frameBorder="0"
         marginHeight={0}
         marginWidth={0}
         title={title}
+        className="block w-full"
       />
     </div>
   );
