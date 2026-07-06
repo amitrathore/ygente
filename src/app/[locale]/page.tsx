@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import {
   HeroB2C,
+  WhatIsYgente,
   TrustSection,
   MagazineSection,
   VerticalShowcase,
@@ -42,6 +43,7 @@ export default function HomePage() {
   return (
     <>
       <HeroB2C />
+      <WhatIsYgente />
       <TrustSection />
       <MagazineSection />
       <VerticalShowcase />

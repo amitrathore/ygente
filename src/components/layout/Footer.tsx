@@ -12,7 +12,7 @@ export function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <Container size="xl" className="py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12">
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
@@ -53,6 +53,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/creadores" className="text-gray-400 hover:text-white transition-colors">
+                  {nav('creadores')}
+                </Link>
+              </li>
+              <li>
                 <Link href="/marcas" className="text-gray-400 hover:text-white transition-colors">
                   {nav('marcas')}
                 </Link>
@@ -65,6 +70,33 @@ export function Footer() {
               <li>
                 <Link href="/precios" className="text-gray-400 hover:text-white transition-colors">
                   {nav('precios')}
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Commonwealth Links */}
+          <div>
+            <h4 className="font-semibold mb-4">{nav('commonwealth')}</h4>
+            <ul className="space-y-3">
+              <li>
+                <Link href="/commonwealth/vision" className="text-gray-400 hover:text-white transition-colors">
+                  {nav('cwVision')}
+                </Link>
+              </li>
+              <li>
+                <Link href="/commonwealth/como-funciona" className="text-gray-400 hover:text-white transition-colors">
+                  {nav('cwWorks')}
+                </Link>
+              </li>
+              <li>
+                <Link href="/commonwealth/constitucion" className="text-gray-400 hover:text-white transition-colors">
+                  {nav('cwConstitution')}
+                </Link>
+              </li>
+              <li>
+                <Link href="/commonwealth/ser-steward" className="text-gray-400 hover:text-white transition-colors">
+                  {nav('cwSteward')}
                 </Link>
               </li>
             </ul>

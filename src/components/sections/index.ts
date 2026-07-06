@@ -14,3 +14,4 @@ export { CommunityStats } from './CommunityStats';
 export { Testimonials } from './Testimonials';
 export { CtaSection } from './CtaSection';
 export { MagazineSection } from './MagazineSection';
+export { WhatIsYgente } from './WhatIsYgente';
