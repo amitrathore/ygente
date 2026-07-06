@@ -3,7 +3,8 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import { Container, Input, Button } from '@/components/ui';
+import { Container } from '@/components/ui';
+import { TallyPopupButton } from '@/components/forms/TallyEmbed';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -30,16 +31,7 @@ export function Footer() {
             {/* Newsletter */}
             <div className="space-y-3">
               <p className="font-semibold">{t('newsletter')}</p>
-              <form className="flex gap-2">
-                <Input
-                  type="email"
-                  placeholder={t('newsletterPlaceholder')}
-                  className="bg-gray-800 border-gray-700 text-white placeholder-gray-500"
-                />
-                <Button type="submit" size="sm">
-                  {t('subscribe')}
-                </Button>
-              </form>
+              <TallyPopupButton form="waitlist">{t('subscribe')}</TallyPopupButton>
             </div>
           </div>
 
