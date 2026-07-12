@@ -2,7 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { useTranslations, useLocale } from 'next-intl';
 import { Container, Button, Badge } from '@/components/ui';
 import { Link } from '@/i18n/routing';
-import { getConstitution } from '@/content/constitution';
+import { getCompanyPrinciples } from '@/content/constitution';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -23,10 +23,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-function ConstitutionContent() {
+function PrinciplesContent() {
   const t = useTranslations('constitutionPage');
   const locale = useLocale();
-  const sections = getConstitution(locale);
+  const sections = getCompanyPrinciples(locale);
 
   return (
     <>
@@ -57,7 +57,7 @@ function ConstitutionContent() {
         </Container>
       </section>
 
-      {/* The document */}
+      {/* Company principles */}
       <section className="py-16 md:py-20 bg-white">
         <Container size="md">
           <div className="space-y-14">
@@ -106,6 +106,6 @@ function ConstitutionContent() {
   );
 }
 
-export default function ConstitutionPage() {
-  return <ConstitutionContent />;
+export default function PrinciplesPage() {
+  return <PrinciplesContent />;
 }

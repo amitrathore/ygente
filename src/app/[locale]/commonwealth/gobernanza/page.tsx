@@ -41,7 +41,7 @@ function GovernanceContent() {
         </Container>
       </section>
 
-      {/* Subsidiarity */}
+      {/* Company direction */}
       <section className="py-20 md:py-28 bg-white">
         <Container size="md">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('subsidiarityTitle')}</h2>
@@ -74,7 +74,7 @@ function GovernanceContent() {
         </Container>
       </section>
 
-      {/* The Council */}
+      {/* Executive team */}
       <section className="py-20 md:py-28 bg-white">
         <Container size="md">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('councilTitle')}</h2>

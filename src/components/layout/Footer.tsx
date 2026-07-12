@@ -67,7 +67,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Commonwealth Links */}
+          {/* Company Links */}
           <div>
             <h4 className="font-semibold mb-4">{nav('commonwealth')}</h4>
             <ul className="space-y-3">

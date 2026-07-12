@@ -41,7 +41,7 @@ function StewardContent() {
         </Container>
       </section>
 
-      {/* What is a Steward */}
+      {/* What is a regional partner */}
       <section className="py-20 md:py-28 bg-white">
         <Container size="md">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('whatTitle')}</h2>
@@ -69,7 +69,7 @@ function StewardContent() {
         </Container>
       </section>
 
-      {/* The Founding Pledge */}
+      {/* The partner commitment */}
       <section className="py-20 md:py-28 bg-gray-900 text-white">
         <Container size="md">
           <div className="text-center mb-16">

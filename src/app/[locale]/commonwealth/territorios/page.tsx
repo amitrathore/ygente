@@ -40,7 +40,7 @@ function TerritoriesContent() {
         </Container>
       </section>
 
-      {/* What is a Territory */}
+      {/* What is a market */}
       <section className="py-20 md:py-28 bg-white">
         <Container size="md">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('whatTitle')}</h2>
@@ -48,7 +48,7 @@ function TerritoriesContent() {
         </Container>
       </section>
 
-      {/* The recursive tree */}
+      {/* Market structure */}
       <section className="py-20 md:py-28 bg-gray-900 text-white">
         <Container size="md">
           <div className="text-center mb-16">
@@ -73,7 +73,7 @@ function TerritoriesContent() {
         </Container>
       </section>
 
-      {/* Parents support children */}
+      {/* Company standards */}
       <section className="py-20 md:py-28 bg-white">
         <Container size="md" className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('principleTitle')}</h2>
