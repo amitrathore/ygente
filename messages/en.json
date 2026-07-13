@@ -109,13 +109,13 @@
     "contacto": "Contact",
     "joinWaitlist": "Join Waitlist",
     "creadores": "Creators",
-    "commonwealth": "Ygente",
-    "cwVision": "Our Vision",
-    "cwWorks": "How Ygente Works",
-    "cwConstitution": "Ygente Principles",
-    "cwGovernance": "Leadership",
-    "cwTerritories": "Markets",
-    "cwSteward": "Become a Regional Partner"
+    "ygente": "Ygente",
+    "ygVision": "Our Vision",
+    "ygWorks": "How Ygente Works",
+    "ygPrinciples": "Ygente Principles",
+    "ygLeadership": "Leadership",
+    "ygMarkets": "Markets",
+    "ygRegionalPartner": "Become a Regional Partner"
   },
   "hero": {
     "tagline": "Welcome to the Age of Coselling",
@@ -485,7 +485,7 @@
     "body3": "We're building a founder-led Hispanic growth network.",
     "cta": "Discover Ygente"
   },
-  "commonwealth": {
+  "ygente": {
     "badge": "Why we exist",
     "title": "Ygente",
     "tagline": "We don't build marketplaces. We cultivate local economies.",
@@ -502,8 +502,8 @@
     "governanceDesc": "How founders and executives set direction while regional partners help local markets grow.",
     "territoriesTitle": "Markets",
     "territoriesDesc": "A practical market structure for local growth, from countries and states to cities and neighborhoods.",
-    "stewardTitle": "Become a Regional Partner",
-    "stewardDesc": "Regional partners help Ygente develop local markets through standard Ygente agreements.",
+    "regionalPartnerTitle": "Become a Regional Partner",
+    "regionalPartnerDesc": "Regional partners help Ygente develop local markets through standard Ygente agreements.",
     "principlesTitle": "The Ygente Principles",
     "principlesSubtitle": "The standards that guide how Ygente grows.",
     "p1Title": "Founder-led accountability",
@@ -542,7 +542,7 @@
     "ctaButton": "See how Ygente works",
     "ctaSecondary": "Read the Principles"
   },
-  "commonwealthWorks": {
+  "ygenteWorks": {
     "title": "How Ygente Works",
     "badge": "The Mechanics",
     "heroTitle": "Prosperity that moves in circles, not pipelines.",
@@ -624,7 +624,7 @@
     "ctaButton": "Become a Regional Partner",
     "ctaSecondary": "Read the Principles"
   },
-  "stewardPage": {
+  "regionalPartnerPage": {
     "title": "Become a Regional Partner",
     "badge": "Leadership through Execution",
     "heroTitle": "Help Ygente grow in your market.",

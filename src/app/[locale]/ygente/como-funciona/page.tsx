@@ -5,7 +5,7 @@ import { Link } from '@/i18n/routing';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'commonwealthWorks' });
+  const t = await getTranslations({ locale, namespace: 'ygenteWorks' });
 
   return {
     title: `${t('title')} | Ygente`,
@@ -22,8 +22,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-function CommonwealthWorksContent() {
-  const t = useTranslations('commonwealthWorks');
+function YgenteWorksContent() {
+  const t = useTranslations('ygenteWorks');
   const tFly = useTranslations('flywheel');
 
   const circle = [1, 2, 3, 4, 5, 6, 7, 8].map((n) => t(`c${n}`));
@@ -115,12 +115,12 @@ function CommonwealthWorksContent() {
         <Container size="md" className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">{t('ctaTitle')}</h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/commonwealth/constitucion">
+            <Link href="/ygente/principios">
               <Button size="lg" className="bg-white text-brand-teal hover:bg-gray-100">
                 {t('ctaButton')}
               </Button>
             </Link>
-            <Link href="/commonwealth/ser-steward">
+            <Link href="/ygente/socio-regional">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-brand-teal">
                 {t('ctaSecondary')}
               </Button>
@@ -132,6 +132,6 @@ function CommonwealthWorksContent() {
   );
 }
 
-export default function CommonwealthWorksPage() {
-  return <CommonwealthWorksContent />;
+export default function YgenteWorksPage() {
+  return <YgenteWorksContent />;
 }

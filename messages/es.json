@@ -109,13 +109,13 @@
     "contacto": "Contacto",
     "joinWaitlist": "Únete a la Lista",
     "creadores": "Creadores",
-    "commonwealth": "Ygente",
-    "cwVision": "Nuestra Visión",
-    "cwWorks": "Cómo Funciona Ygente",
-    "cwConstitution": "Principios de Ygente",
-    "cwGovernance": "Liderazgo",
-    "cwTerritories": "Mercados",
-    "cwSteward": "Conviértete en Socio Regional"
+    "ygente": "Ygente",
+    "ygVision": "Nuestra Visión",
+    "ygWorks": "Cómo Funciona Ygente",
+    "ygPrinciples": "Principios de Ygente",
+    "ygLeadership": "Liderazgo",
+    "ygMarkets": "Mercados",
+    "ygRegionalPartner": "Conviértete en Socio Regional"
   },
   "hero": {
     "tagline": "Bienvenido a la Era del Coselling",
@@ -485,7 +485,7 @@
     "body3": "Estamos construyendo una red de crecimiento hispana liderada por fundadores.",
     "cta": "Descubre Ygente"
   },
-  "commonwealth": {
+  "ygente": {
     "badge": "Por qué existimos",
     "title": "Ygente",
     "tagline": "No construimos marketplaces. Cultivamos economías locales.",
@@ -502,8 +502,8 @@
     "governanceDesc": "Cómo los fundadores y ejecutivos marcan la dirección mientras los socios regionales ayudan a crecer los mercados locales.",
     "territoriesTitle": "Mercados",
     "territoriesDesc": "Una estructura práctica de mercados para el crecimiento local, desde países y estados hasta ciudades y barrios.",
-    "stewardTitle": "Conviértete en Socio Regional",
-    "stewardDesc": "Los socios regionales ayudan a Ygente a desarrollar mercados locales mediante acuerdos estándar de Ygente.",
+    "regionalPartnerTitle": "Conviértete en Socio Regional",
+    "regionalPartnerDesc": "Los socios regionales ayudan a Ygente a desarrollar mercados locales mediante acuerdos estándar de Ygente.",
     "principlesTitle": "Los Principios de Ygente",
     "principlesSubtitle": "Los estándares que guían cómo crece Ygente.",
     "p1Title": "Responsabilidad liderada por fundadores",
@@ -542,7 +542,7 @@
     "ctaButton": "Ve cómo funciona Ygente",
     "ctaSecondary": "Lee los Principios"
   },
-  "commonwealthWorks": {
+  "ygenteWorks": {
     "title": "Cómo Funciona Ygente",
     "badge": "La Mecánica",
     "heroTitle": "Prosperidad que se mueve en círculos, no en tuberías.",
@@ -624,7 +624,7 @@
     "ctaButton": "Conviértete en Socio Regional",
     "ctaSecondary": "Lee los Principios"
   },
-  "stewardPage": {
+  "regionalPartnerPage": {
     "title": "Conviértete en Socio Regional",
     "badge": "Liderazgo mediante Ejecución",
     "heroTitle": "Ayuda a Ygente a crecer en tu mercado.",

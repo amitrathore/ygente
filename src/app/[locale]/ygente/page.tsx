@@ -5,7 +5,7 @@ import { Link } from '@/i18n/routing';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'commonwealth' });
+  const t = await getTranslations({ locale, namespace: 'ygente' });
 
   return {
     title: `${t('title')} | Ygente`,
@@ -22,16 +22,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-function CommonwealthContent() {
-  const t = useTranslations('commonwealth');
+function YgenteContent() {
+  const t = useTranslations('ygente');
 
   const sections = [
-    { key: 'vision', href: '/commonwealth/vision', accent: 'bg-brand-teal/10 text-brand-teal' },
-    { key: 'works', href: '/commonwealth/como-funciona', accent: 'bg-brand-green/10 text-brand-green' },
-    { key: 'constitution', href: '/commonwealth/constitucion', accent: 'bg-brand-gold/10 text-brand-gold' },
-    { key: 'governance', href: '/commonwealth/gobernanza', accent: 'bg-brand-orange/10 text-brand-orange' },
-    { key: 'territories', href: '/commonwealth/territorios', accent: 'bg-brand-magenta/10 text-brand-magenta' },
-    { key: 'steward', href: '/commonwealth/ser-steward', accent: 'bg-brand-teal/10 text-brand-teal' },
+    { key: 'vision', href: '/ygente/vision', accent: 'bg-brand-teal/10 text-brand-teal' },
+    { key: 'works', href: '/ygente/como-funciona', accent: 'bg-brand-green/10 text-brand-green' },
+    { key: 'constitution', href: '/ygente/principios', accent: 'bg-brand-gold/10 text-brand-gold' },
+    { key: 'governance', href: '/ygente/liderazgo', accent: 'bg-brand-orange/10 text-brand-orange' },
+    { key: 'territories', href: '/ygente/mercados', accent: 'bg-brand-magenta/10 text-brand-magenta' },
+    { key: 'regionalPartner', href: '/ygente/socio-regional', accent: 'bg-brand-teal/10 text-brand-teal' },
   ] as const;
 
   const principles = [1, 2, 3, 4, 5, 6].map((n) => ({
@@ -110,7 +110,7 @@ function CommonwealthContent() {
             ))}
           </div>
           <div className="text-center mt-12">
-            <Link href="/commonwealth/constitucion">
+            <Link href="/ygente/principios">
               <Button variant="outline" size="lg">
                 {t('readConstitution')}
               </Button>
@@ -135,6 +135,6 @@ function CommonwealthContent() {
   );
 }
 
-export default function CommonwealthPage() {
-  return <CommonwealthContent />;
+export default function YgentePage() {
+  return <YgenteContent />;
 }

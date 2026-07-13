@@ -69,26 +69,26 @@ export function Footer() {
 
           {/* Company Links */}
           <div>
-            <h4 className="font-semibold mb-4">{nav('commonwealth')}</h4>
+            <h4 className="font-semibold mb-4">{nav('ygente')}</h4>
             <ul className="space-y-3">
               <li>
-                <Link href="/commonwealth/vision" className="text-gray-400 hover:text-white transition-colors">
-                  {nav('cwVision')}
+                <Link href="/ygente/vision" className="text-gray-400 hover:text-white transition-colors">
+                  {nav('ygVision')}
                 </Link>
               </li>
               <li>
-                <Link href="/commonwealth/como-funciona" className="text-gray-400 hover:text-white transition-colors">
-                  {nav('cwWorks')}
+                <Link href="/ygente/como-funciona" className="text-gray-400 hover:text-white transition-colors">
+                  {nav('ygWorks')}
                 </Link>
               </li>
               <li>
-                <Link href="/commonwealth/constitucion" className="text-gray-400 hover:text-white transition-colors">
-                  {nav('cwConstitution')}
+                <Link href="/ygente/principios" className="text-gray-400 hover:text-white transition-colors">
+                  {nav('ygPrinciples')}
                 </Link>
               </li>
               <li>
-                <Link href="/commonwealth/ser-steward" className="text-gray-400 hover:text-white transition-colors">
-                  {nav('cwSteward')}
+                <Link href="/ygente/socio-regional" className="text-gray-400 hover:text-white transition-colors">
+                  {nav('ygRegionalPartner')}
                 </Link>
               </li>
             </ul>

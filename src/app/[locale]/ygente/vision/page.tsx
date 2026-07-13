@@ -81,12 +81,12 @@ function VisionContent() {
         <Container size="md" className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">{t('ctaTitle')}</h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/commonwealth/como-funciona">
+            <Link href="/ygente/como-funciona">
               <Button size="lg" className="bg-white text-brand-teal hover:bg-gray-100">
                 {t('ctaButton')} →
               </Button>
             </Link>
-            <Link href="/commonwealth/constitucion">
+            <Link href="/ygente/principios">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-brand-teal">
                 {t('ctaSecondary')}
               </Button>

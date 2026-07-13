@@ -42,7 +42,7 @@ export function WhatIsYgente() {
             {t('body3')}
           </p>
 
-          <Link href="/commonwealth">
+          <Link href="/ygente">
             <Button size="lg" className="text-lg px-8">
               {t('cta')} →
             </Button>

@@ -100,12 +100,12 @@ function GovernanceContent() {
         <Container size="md" className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">{t('ctaTitle')}</h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/commonwealth/ser-steward">
+            <Link href="/ygente/socio-regional">
               <Button size="lg" className="bg-white text-brand-orange hover:bg-gray-100">
                 {t('ctaButton')}
               </Button>
             </Link>
-            <Link href="/commonwealth/territorios">
+            <Link href="/ygente/mercados">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-brand-orange">
                 {t('ctaSecondary')}
               </Button>

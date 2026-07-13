@@ -5,7 +5,7 @@ import { Link } from '@/i18n/routing';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'stewardPage' });
+  const t = await getTranslations({ locale, namespace: 'regionalPartnerPage' });
 
   return {
     title: `${t('title')} | Ygente`,
@@ -22,8 +22,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-function StewardContent() {
-  const t = useTranslations('stewardPage');
+function RegionalPartnerContent() {
+  const t = useTranslations('regionalPartnerPage');
 
   const foundations = [1, 2, 3, 4, 5].map((n) => t(`f${n}`));
   const pledge = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => t(`pledge${n}`));
@@ -108,6 +108,6 @@ function StewardContent() {
   );
 }
 
-export default function StewardPage() {
-  return <StewardContent />;
+export default function RegionalPartnerPage() {
+  return <RegionalPartnerContent />;
 }
